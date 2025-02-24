@@ -1,11 +1,13 @@
 Fitness Tracker Microservice
-A Flask-based microservice that analyzes fitness trends, provides personalized workout suggestions, and aggregates user activity data.
+This microservice processes user activity data and provides fitness trend analysis, personalized workout suggestions, and aggregated statistics.
 
-Features
--Receives user activity data (running, walking, cycling, etc.).
--Calculates fitness trends (calories burned, steps taken).
--Provides personalized fitness suggestions.
--Returns JSON responses for easy integration.
+Communication Contract
+NOTE: Do not use the test program provided below (it is not required). All code must be written on your own.
+
+This microservice provides fitness trend analysis and recommendations based on user inputs such as activity type, duration, and intensity.
+
+How to Request Data from the Microservice
+To request fitness recommendations, send a POST request to the microservice with the required parameters.
 
 Project Structure
 fitness-tracker-microservice
