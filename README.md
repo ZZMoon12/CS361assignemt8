@@ -76,18 +76,6 @@ Response Example
 }
 
 UML Sequence Diagram
-+----------------------+      +----------------------+      +---------------------+
-|   Client (Test App)  |      |   Microservice A     |      |    Fitness Data     |
-+----------------------+      +----------------------+      +---------------------+
-          |                           |                          |
-          |  1. Request fitness trends |                          |
-          |-------------------------->|                          |
-          |                           |  2. Process request      |
-          |                           |------------------------->|
-          |                           |  3. Return trends data  |
-          |                           |<-------------------------|
-          |  4. Receive & display data|                          |
-          |<--------------------------|                          |
 
 
 [image](https://github.com/user-attachments/assets/6e450f73-ff5b-4f7a-ac19-0e46436220c1)
